@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>DEMO sample1.com 首页</title>
+
+  <link rel="stylesheet" type="text/css" href="css/sites_sample1com_index_css.css"/>
+
+</head>
+<body>
+
+  <div class="web-container">
+
+    <!--inline[../../../company/widgets/header/tpl/header.html]-->
+    <!--inline[../../../company/widgets/body/tpl/body.html]-->
+    <!--inline[../../../company/widgets/footer/tpl/footer.html]-->
+
+  </div>
+
+    <!--inline[../../../company/tpl/seajsRootConfig.html]-->
+
+
+    <script>
+      // 后台输出 Start -- 
+      var siteName = 'sample1com';
+      var pageName = 'index';
+      // 后台输出 End -- 
+
+      var debugJsLocation = 'company/sites/'+siteName+'/'+pageName+'/js/init-sites-'+siteName+'-'+pageName;
+      var productionJsLocation = 'company/sites-concated/'+siteName+'/'+pageName+'/js/init-sites-'+siteName+'-'+pageName;
+
+    </script>
+
+    <script>
+
+    seajs.use( document.location.hash.match(/debug/)? debugJsLocation: productionJsLocation , function(p){
+      seajs.log('environment:' + document.location.hash.match(/debug/)? 'development':'production'));
+      seajs.log('loaded '+ document.location.hash.match(/debug/)? debugJsLocation:productionJsLocation) );
+    });
+
+    </script>
+</body>
+</html>
+
+
+
+
+
