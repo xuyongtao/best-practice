@@ -56,7 +56,7 @@ fis.config.merge({
     //使用fis release --dest remote来使用这个配置
     remote: {
       //如果配置了receiver，fis会把文件逐个post到接收端上
-      receiver: 'http://s1.sample.com/whatthefuckxxx.php',
+      receiver: 'http://s1.sample.com/receiver.php',
       //从产出的结果的static目录下找文件
       from: '/',
       //保存到远端机器的/home/fis/www/static目录下
