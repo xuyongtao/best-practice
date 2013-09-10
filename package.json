@@ -1,0 +1,40 @@
+{
+  "family": "company",
+  "name": "bp",
+  "version": "0.0.1",
+  "spm": {
+    "alias": {
+      "$": "jquery/jquery/1.10.1/jquery",
+      "underscore": "gallery/underscore/1.4.4/underscore",
+      "backbone": "gallery/backbone/1.0.0/backbone",
+      "moment": "gallery/moment/1.7.2/moment",
+      "placeholder": "arale/placeholder/1.1.0/placeholder",
+      "slide": "arale/switchable/1.0.0/slide",
+      "tabs": "arale/switchable/1.0.0/tabs",
+      "sticky": "arale/sticky/1.2.1/sticky",
+      "autocomplete": "arale/autocomplete/1.2.1/autocomplete",
+      "scrollmonitor": "gallery/scrollmonitor/1.0.5/scrollmonitor",
+      "switchable": "arale/switchable/1.0.0/switchable",
+      "alice": "alice/one/1.1.0/alice",
+      "detector": "arale/detector/1.2.1/detector",
+      "json": "gallery/json/1.0.3/json",
+      "handlebars": "gallery/handlebars/1.0.2/handlebars",
+      "store": "gallery/store/1.3.7/store",
+      "jquery-color": "jquery/color/2.1.2/color",
+      "tip": "arale/tip/1.1.4/tip",
+      "mask": "arale/overlay/1.1.3/mask",
+      "bootstrap": "gallery/bootstrap/3.0.0/bootstrap"
+    }
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cmd-transport":"*",
+    "grunt-cmd-concat":"*",
+    "grunt-contrib-clean":"*",
+    "grunt-contrib-uglify":"*",
+    "grunt-contrib-less":"*",
+    "grunt-contrib-watch":"*",
+    "grunt-compile-handlebars":"*",
+    "grunt-exec":"*"
+  }
+}
