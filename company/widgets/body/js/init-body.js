@@ -7,6 +7,7 @@ define(function(require, exports, module) {
 	complain();
 	complain(100000000);
 	
-	seajs.log('loaded init-body~~');
+	seajs.log('loaded init-body done~~');
 
 });
+
