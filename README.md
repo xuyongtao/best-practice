@@ -65,3 +65,7 @@ best-practice-about-frontend-dev
 8. concat sea-modules/sites-concated 下的所有js文件，让其 `include: 'all'` 合并所有依赖模块  
 9. uglify 所有产出的 js 文件  
 10. 执行 fis release 构建，inline 所有该inline的文件，自动雪碧，资源域名定位      
+
+## 张云龙大哥给的建议 今晚或明晚有空就改掉
+1. fis release -o 来压缩js、css、图片？不用grunt的uglify，使得编译少一个步骤
+2. 以及用fis的fis-parser-less，来编译less文件
