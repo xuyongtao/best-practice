@@ -208,7 +208,7 @@ module.exports = function(grunt) {
       }
     },
     clean: {
-      spm: ['.build', 'static', 'assets-v10']
+      spm: ['.build', 'static', 'product']
     }
   });
 

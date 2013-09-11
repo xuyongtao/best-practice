@@ -53,3 +53,15 @@ best-practice-about-frontend-dev
 ## 完成了自己的 Gruntfile.js 配置
  mark 一下，已经很快就可以把 样例push上来了，最近没时间，等过几天出远门在机场可以有空干这件事
 就目前自己的感觉而言。。。太爽了。。。
+## 大致的完成了 demo project
+当运行 `grunt build-all`的时候，会按顺序做以下的事情  
+1. 执行clean  
+2. 编译less到less文件所在目录  
+3. 编译handlebars模板，数据是同名的json文件，输出为同名的html文件  
+4. transport company 下的javascript文件夹的js文件到sea-modules  
+5. transport company 下的wigets文件夹下的js文件sea-modules  
+6. transport sites   下的所有js文件到 sea-modules/sites 下  
+7. transport sites   下的所有js文件到 sea-modules/sites-concated 下（同上一步，只是目标文件夹不同）  
+8. concat sea-modules/sites-concated 下的所有js文件，让其 `include: 'all'` 合并所有依赖模块  
+9. uglify 所有产出的 js 文件  
+10. 执行 fis release 构建，inline 所有该inline的文件，自动雪碧，资源域名定位      
