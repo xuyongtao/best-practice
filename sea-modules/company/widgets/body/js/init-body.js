@@ -1,1 +1,1 @@
-define("company/widgets/body/js/init-body",["jquery/jquery/1.10.1/jquery","company/javascript/my-util"],function(a){a("jquery/jquery/1.10.1/jquery");var b=a("company/javascript/my-util");b(),b(1e8),seajs.log("loaded init-body done~~")});
+define("company/widgets/body/js/init-body",["jquery/jquery/1.10.1/jquery","company/javascript/my-util"],function(a){var b=(a("jquery/jquery/1.10.1/jquery"),a("company/javascript/my-util"));b(),b(1e8),seajs.log("loaded init-body done~~")});

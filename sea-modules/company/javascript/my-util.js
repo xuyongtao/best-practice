@@ -1,1 +1,1 @@
-define("company/javascript/my-util",[],function(a,b,c){var d=function(a){return a?console.log("no money you say a jb!"):console.log("money is a jb!")};c.exports=d});
+define("company/javascript/my-util",[],function(a,b,c){var d=function(a){return console.log(a?"no money you say a jb!":"money is a jb!")};c.exports=d});

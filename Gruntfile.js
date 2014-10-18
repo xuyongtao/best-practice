@@ -141,6 +141,7 @@ module.exports = function(grunt) {
           idleading: 'company/'
         },
         files: [{
+          expand: true,
           cwd: 'company',
           src: 'javascript/**/*.js',
           filter: 'isFile',
@@ -152,6 +153,7 @@ module.exports = function(grunt) {
           idleading: 'company/'
         },
         files: [{
+          expand: true,
           cwd: 'company',
           src: 'widgets/**/*.js',
           filter: 'isFile',
@@ -163,6 +165,7 @@ module.exports = function(grunt) {
           idleading: 'company/sites/'
         },
         files: [{
+          expand: true,
           cwd: 'sites',
           src: '**/*.js',
           filter: 'isFile',
@@ -174,6 +177,7 @@ module.exports = function(grunt) {
           idleading: 'company/sites-concated/'
         },
         files: [{
+          expand: true,
           cwd: 'sites',
           src: '**/*.js',
           filter: 'isFile',

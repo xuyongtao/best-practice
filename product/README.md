@@ -65,3 +65,5 @@ best-practice-about-frontend-dev
 8. concat sea-modules/sites-concated 下的所有js文件，让其 `include: 'all'` 合并所有依赖模块  
 9. uglify 所有产出的 js 文件  
 10. 执行 fis release 构建，inline 所有该inline的文件，自动雪碧，资源域名定位      
+
+## 计划加入fis插件，减掉grunt构建这一步

@@ -24,9 +24,17 @@
             "uri": "/company/css/preboot.css",
             "type": "css"
         },
+        "csssprites:company/css/preboot.less": {
+            "uri": "/company/css/preboot.less",
+            "type": "less"
+        },
         "csssprites:company/css/veryless.css": {
             "uri": "/company/css/veryless.css",
             "type": "css"
+        },
+        "csssprites:company/css/veryless.less": {
+            "uri": "/company/css/veryless.less",
+            "type": "less"
         },
         "csssprites:company/javascript/my-util.js": {
             "uri": "/company/javascript/my-util.js",
@@ -36,13 +44,25 @@
             "uri": "/company/widgets/body/css/body-colors.css",
             "type": "css"
         },
+        "csssprites:company/widgets/body/css/body-colors.less": {
+            "uri": "/company/widgets/body/css/body-colors.less",
+            "type": "less"
+        },
         "csssprites:company/widgets/body/css/body-config.css": {
             "uri": "/company/widgets/body/css/body-config.css",
             "type": "css"
         },
+        "csssprites:company/widgets/body/css/body-config.less": {
+            "uri": "/company/widgets/body/css/body-config.less",
+            "type": "less"
+        },
         "csssprites:company/widgets/body/css/widget-body.css": {
             "uri": "/company/widgets/body/css/widget-body.css",
             "type": "css"
+        },
+        "csssprites:company/widgets/body/css/widget-body.less": {
+            "uri": "/company/widgets/body/css/widget-body.less",
+            "type": "less"
         },
         "csssprites:company/widgets/body/js/init-body.js": {
             "uri": "/company/widgets/body/js/init-body.js",
@@ -56,13 +76,25 @@
             "uri": "/company/widgets/footer/css/footer-colors.css",
             "type": "css"
         },
+        "csssprites:company/widgets/footer/css/footer-colors.less": {
+            "uri": "/company/widgets/footer/css/footer-colors.less",
+            "type": "less"
+        },
         "csssprites:company/widgets/footer/css/footer-config.css": {
             "uri": "/company/widgets/footer/css/footer-config.css",
             "type": "css"
         },
+        "csssprites:company/widgets/footer/css/footer-config.less": {
+            "uri": "/company/widgets/footer/css/footer-config.less",
+            "type": "less"
+        },
         "csssprites:company/widgets/footer/css/widget-footer.css": {
             "uri": "/company/widgets/footer/css/widget-footer.css",
             "type": "css"
+        },
+        "csssprites:company/widgets/footer/css/widget-footer.less": {
+            "uri": "/company/widgets/footer/css/widget-footer.less",
+            "type": "less"
         },
         "csssprites:company/widgets/footer/js/init-footer.js": {
             "uri": "/company/widgets/footer/js/init-footer.js",
@@ -76,13 +108,25 @@
             "uri": "/company/widgets/header/css/header-colors.css",
             "type": "css"
         },
+        "csssprites:company/widgets/header/css/header-colors.less": {
+            "uri": "/company/widgets/header/css/header-colors.less",
+            "type": "less"
+        },
         "csssprites:company/widgets/header/css/header-config.css": {
             "uri": "/company/widgets/header/css/header-config.css",
             "type": "css"
         },
+        "csssprites:company/widgets/header/css/header-config.less": {
+            "uri": "/company/widgets/header/css/header-config.less",
+            "type": "less"
+        },
         "csssprites:company/widgets/header/css/widget-header.css": {
             "uri": "/company/widgets/header/css/widget-header.css",
             "type": "css"
+        },
+        "csssprites:company/widgets/header/css/widget-header.less": {
+            "uri": "/company/widgets/header/css/widget-header.less",
+            "type": "less"
         },
         "csssprites:company/widgets/header/js/init-header.js": {
             "uri": "/company/widgets/header/js/init-header.js",
@@ -103,6 +147,10 @@
         "csssprites:sea-modules/alice/base/1.0.1/base-debug.css": {
             "uri": "/sea-modules/alice/base/1.0.1/base-debug.css",
             "type": "css"
+        },
+        "csssprites:sea-modules/alice/base/1.0.1/base-debug.less": {
+            "uri": "/sea-modules/alice/base/1.0.1/base-debug.less",
+            "type": "less"
         },
         "csssprites:sea-modules/alice/base/1.0.1/base.css": {
             "uri": "/sea-modules/alice/base/1.0.1/base.css",
@@ -629,6 +677,10 @@
         "csssprites:sites/sample1.com/index/css/sites_sample1com_index_css.css": {
             "uri": "http://s1.sample.com/product/sites/sample1.com/index/css/sites_sample1com_index_css.css",
             "type": "css"
+        },
+        "csssprites:sites/sample1.com/index/css/sites_sample1com_index_css.less": {
+            "uri": "/sites/sample1.com/index/css/sites_sample1com_index_css.less",
+            "type": "less"
         },
         "csssprites:sites/sample1.com/index/js/init-sites-sample1com-index.js": {
             "uri": "/sites/sample1.com/index/js/init-sites-sample1com-index.js",
