@@ -1,5 +1,5 @@
 fis.config.merge({
-  namespace: 'csssprites',
+  namespace: 'namespace',
   modules: {
     spriter: 'csssprites'
   },
@@ -30,6 +30,18 @@ fis.config.merge({
       }, {
         // 前面规则未匹配到的其他文件
         reg: /^(\/node_modules)/i,
+        //编译的时候不要产出了
+        release: false,
+        useCompile: false
+      }, {
+        // 前面规则未匹配到的其他文件
+        reg: /^(\/Gruntfile.js)/i,
+        //编译的时候不要产出了
+        release: false,
+        useCompile: false
+      }, {
+        // 前面规则未匹配到的其他文件
+        reg: /^(\/README.md)/i,
         //编译的时候不要产出了
         release: false,
         useCompile: false

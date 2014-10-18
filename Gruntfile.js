@@ -212,6 +212,16 @@ module.exports = function(grunt) {
       }
     },
     clean: {
+      options: {
+        /**
+        * 强制规避 Warning: Cannot delete files outside the current working directory. Use --force to continue.
+        * 
+        * 就设置options: true选项
+        *
+        * 参考链接：https://github.com/gruntjs/grunt-contrib-clean/issues/29#issuecomment-23649458
+        */
+        force: true
+      },
       spm: ['.build', 'static', 'product']
     }
   });
